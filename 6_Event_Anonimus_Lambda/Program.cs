@@ -32,13 +32,13 @@ namespace _6_Event_Anonimus_Lambda
             //    Console.WriteLine("---------------------------------------------------------------------");
             //    Console.ResetColor();
             //}
-            static void DisplayUserMessage(object? sender, AccoutEventArgs e) // Метод обработки событий 
-            {
-                if (sender is User user)
-                {
-                    Console.WriteLine(e.Message + e.Sum + " клиентом: " + user.UserName);
-                }
-            }
+//             static void DisplayUserMessage(object? sender, AccoutEventArgs e) // Метод обработки событий 
+//             {
+//                 if (sender is User user)
+//                 {
+//                     Console.WriteLine(e.Message + e.Sum + " клиентом: " + user.UserName);
+//                 }
+//             }
 
         }
     }
